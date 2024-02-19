@@ -8,12 +8,10 @@ namespace Ejercicio_Amales_polimorfismo
 {
     internal class Gato: Animal
     {
-        public void HacerSonido()
-        {
-            Console.WriteLine(" Miau! Miau! Miau! Miau!  Miau! Miau!  Miau! Miau!");
-
-        }
-
+     public override void HacerSonido()
+  {
+    Console.WriteLine("¡Miau! ¡Miau! ¡Miau! ¡Miau! ¡Miau! ¡Miau! ¡Miau! ¡Miau!");
+  }
     }
 }
 
