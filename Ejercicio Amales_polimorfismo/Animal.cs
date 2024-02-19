@@ -8,7 +8,10 @@ namespace Ejercicio_Amales_polimorfismo
 {
     internal interface Animal
     {
-            void HacerSonido();
-        
+        public virtual void HacerSonido()
+  {
+
+  }
+
     }
 }
