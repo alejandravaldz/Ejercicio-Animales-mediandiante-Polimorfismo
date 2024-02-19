@@ -8,10 +8,10 @@ namespace Ejercicio_Amales_polimorfismo
 {
     internal class Perro: Animal
     {
-        public void HacerSonido()
-        {
-            Console.WriteLine("Guau! Guau! Guau! Guau! Guau! Guau!");
-        }
+       public override void HacerSonido()
+   {
+     Console.WriteLine("Guau! Guau! Guau! Guau! Guau! Guau!");
+   }
 
     }
 }
