@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_Amales_polimorfismo
 {
-    internal interface Animal
-    {
-        public virtual void HacerSonido()
-  {
+   public virtual void HacerSonido()
+{
+
+}
 
   }
 
-    }
 }
+
